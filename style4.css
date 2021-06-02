@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 550px;
+}
+
+.header-top {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.header-bottom {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  width: 960px;
+  height: 1400px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 500px;
+  height: 1400px;
+  background-color: green;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
